@@ -5,6 +5,9 @@ from sklearn.metrics import (classification_report, confusion_matrix,
                             mean_absolute_error)
 import matplotlib.pyplot as plt
 import seaborn as sns
+from gradcam import generate_gradcam
+
+generate_gradcam(model, test_dataset, device)
 
 model.eval()
 all_labels = []
@@ -78,3 +81,5 @@ for true_sev in range(len(class_names)):
             severity_diff = abs(true_sev - pred_sev)
             print(f"True {class_names[true_sev]} → Pred {class_names[pred_sev]}: "
                   f"{count} cases ({severity_diff}-level error)")
+#6. Gradcam visualization
+print(generate_gradcam(model, test_dataset, device))
