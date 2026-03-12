@@ -1,7 +1,7 @@
 # ViT-attention-CNN-guided-diabetic-retinopathy-detection
 
-This work is published in the Springer Journal of Big Data and Artificial Intelligence
-(BDA 2025) under the name Enhancing Ocular Disease Diagnosis: An Attention-Guided CNN for Diabetic Retinopathy Detection Using Vision Transformer-Derived Channel Augmentation: https://link.springer.com/chapter/10.1007/978-3-032-15134-6_13
+This work is published under the name Enhancing Ocular Disease Diagnosis: An Attention-Guided CNN for Diabetic Retinopathy Detection Using Vision Transformer-Derived Channel Augmentation, in the Springer Journal of "Big Data and Artificial Intelligence (BDA 2025)" as a part of the proceedings of the "13th International Conference on Big Data Analytics" held in International Institute of Information Technology - Bangalore (IIIT-B), India:
+https://link.springer.com/chapter/10.1007/978-3-032-15134-6_13
 
 Diabetic retinopathy (DR) is a top contributor to visual impairment, for which early diagnosis is essential to have an effective impact. State-of-the-art deep learning methods are impeded by low interpretability and unbalanced class handling, thereby impairing clinical feasibility. 
 In this work, we propose an innovative deep learning framework that combines Vision Transformers (ViT) with Convolutional Neural Networks (CNNs) to automate the initial screening procedure for diabetic retinopathy. The goal is to improve the diagnostic efficiency and accuracy, thereby helping ophthalmologists in making faster and more reliable choices. 
